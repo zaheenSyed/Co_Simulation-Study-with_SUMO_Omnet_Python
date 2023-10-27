@@ -1,0 +1,18 @@
+<configuration>
+    <input>
+		<random value="true"/>
+        <seed value="12345"/>
+        <net-file value="I75_Final.net.xml"/>
+        <route-files value="I75_Final.rou.xml"/>
+		<additional-files value="I75_router.add.xml, data.add.xml, I75_loop.add.xml "/>
+		<gui-settings-file value="I75_Final.settings.xml"/>
+        <step-length value="0.1"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="7200"/>
+    </time>
+    <output>
+        <statistic-output value="stat.xml"/>
+    </output>  
+</configuration>

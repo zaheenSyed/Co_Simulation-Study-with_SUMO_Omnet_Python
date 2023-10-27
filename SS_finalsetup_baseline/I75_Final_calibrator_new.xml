@@ -1,0 +1,39 @@
+<additional>
+    <vType id="type11" color="1,0,0" carFollowModel="Krauss" laneChangeModel="LC2013" vClass="passenger" guiShape="passenger" probability="0.98"/>
+    <vType id="type22" color="1,1,0" carFollowModel="Krauss" laneChangeModel="LC2013" vClass="truck" guiShape="truck" probability="0.02"/>
+   	<vTypeDistribution id="typedist11" vTypes="type11 type22"/>
+	  
+  
+  <route id="route3" color="1,1,0" edges="1to2"/> 
+  
+  
+  <calibrator id="calibtest_edge1" edge="1to2" pos="100" output="detector2.xml">
+    <flow begin="0" end="300" departLane="random" type="typedist11" vehsPerHour="3912" speed="30.0"  departPos="free" departSpeed="max" route="route3"/>	
+	<flow begin="300" end="600" departLane="random" type="typedist11" vehsPerHour="3936" speed="28.0" departPos="free" departSpeed="max" route="route3"/>		
+	<flow begin="600" end="900" departLane="random" type="typedist11" vehsPerHour="4032" speed="27.0"  departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="900" end="1200" departLane="random" type="typedist11" vehsPerHour="4188" speed="29.0" departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="1200" end="1500" departLane="random" type="typedist11" vehsPerHour="4008" speed="28.0" departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="1500" end="1800" departLane="random" type="typedist11" vehsPerHour="3900" speed="29.0" departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="1800" end="2100" departLane="random" type="typedist11" vehsPerHour="3948" speed="28.0" departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="2100" end="2400" departLane="random" type="typedist11" vehsPerHour="4368" speed="27.5" departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="2400" end="2700" departLane="random" type="typedist11" vehsPerHour="3948" speed="29.0" departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="2700" end="3000" departLane="random" type="typedist11" vehsPerHour="3588" speed="30.0"  departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="3000" end="3300" departLane="random" type="typedist11" vehsPerHour="4260" speed="28.0"  departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="3300" end="3600" departLane="random" type="typedist11" vehsPerHour="4512" speed="27.0"  departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="3600" end="3900" departLane="random" type="typedist11" vehsPerHour="4188" speed="30.0" departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="3900" end="4200" departLane="random" type="typedist11" vehsPerHour="4440" speed="30.0"  departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="4200" end="4500" departLane="random" type="typedist11" vehsPerHour="4368" speed="29.5"  departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="4500" end="4800" departLane="random" type="typedist11" vehsPerHour="4764" speed="29.0"  departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="4800" end="5100" departLane="random" type="typedist11" vehsPerHour="4356" speed="31.0"  departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="5100" end="5400" departLane="random" type="typedist11" vehsPerHour="3168" speed="30.0"  departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="5400" end="5700" departLane="random" type="typedist11" vehsPerHour="4212" speed="31.0"  departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="5700" end="6000" departLane="random" type="typedist11" vehsPerHour="4488" speed="31.0"  departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="6000" end="6300" departLane="random" type="typedist11" vehsPerHour="3564" speed="31.0"  departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="6300" end="6600" departLane="random" type="typedist11" vehsPerHour="3624" speed="31.0"  departPos="free" departSpeed="max" route="route3"/>
+	<flow begin="6600" end="6900" departLane="random" type="typedist11" vehsPerHour="3720" speed="30.0"  departPos="free" departSpeed="max" route="route3"/>	
+	<flow begin="6900" end="7200" departLane="random" type="typedist11" vehsPerHour="3828" speed="30.0"  departPos="free" departSpeed="max" route="route3"/>
+  </calibrator>
+
+  
+
+ </additional>

@@ -1,0 +1,150 @@
+<routes>
+
+	<vType id="type1" color="1,1,1" maxSpeed="31.2928" speedFactor="normc(0.96,0.3,0.2,1)" speedDev="0.1" carFollowModel="Krauss" actionStepLength="1" laneChangeModel="LC2013" lcStrategic="10" lcCooperative="0.8" lcSpeedGain="1" lcSpeedGainLookahead="5" accel="4.5" decel="6.5" emergencyDecel="9.0" tau="1.2" sigma="0.2"  minGap="2" vClass="passenger" guiShape="passenger" probability="1">
+		<param key="has.ssm.device" value="true"/>
+		<param key="device.ssm.measures" value="TTC DRAC"/>
+        <param key="device.ssm.thresholds" value="4 2"/> 
+        <param key="device.ssm.range" value="50.0" />
+        <param key="device.ssm.extratime" value="0.1" />
+        <param key="device.ssm.file" value="ssm_k.xml" />
+	
+		
+	</vType>
+	
+
+	<vTypeDistribution id="typedist1" vTypes="type1"/>
+
+
+
+	<route id="route0" color="1,1,0" edges="1to2 2to3 "/>
+	<route id="route1" color="1,1,0" edges="4to4_1 4to5 5to6 6to7"/>
+	<route id="route2" color="1,1,0" edges="10_1to10 10to11 11to12 12to13"/>
+	
+	
+	
+		
+	<flows>
+	
+	<flow id="1_1" begin="0" end="300" departLane="random" type="typedist1" vehsPerHour="3912" route="route0"/>
+	<flow id="1_2" begin="0" end="300" departLane="random" type="typedist1" vehsPerHour="936" route="route1"/>
+	<flow id="1_3" begin="0" end="300" departLane="random" type="typedist1" vehsPerHour="468" route="route2"/>
+	
+	<flow id="2_1" begin="300" end="600" departLane="random" type="typedist1" vehsPerHour="3936" route="route0"/>
+	<flow id="2_2" begin="300" end="600" departLane="random" type="typedist1" vehsPerHour="588" route="route1"/>
+	<flow id="2_3" begin="300" end="600" departLane="random" type="typedist1" vehsPerHour="132" route="route2"/>
+	
+	
+	<flow id="3_1" begin="600" end="900" departLane="random" type="typedist1" vehsPerHour="4032" route="route0"/>
+	<flow id="3_2" begin="600" end="900" departLane="random" type="typedist1" vehsPerHour="864" route="route1" />
+	<flow id="3_3" begin="600" end="900" departLane="random" type="typedist1" vehsPerHour="108" route="route2" />
+	
+	<flow id="4_1" begin="900" end="1200" departLane="random" type="typedist1" vehsPerHour="4188" route="route0"/>
+	<flow id="4_2" begin="900" end="1200" departLane="random" type="typedist1" vehsPerHour="684" route="route1"/>
+	<flow id="4_3" begin="900" end="1200" departLane="random" type="typedist1" vehsPerHour="0.0001" route="route2"/>
+		
+	<flow id="5_1" begin="1200" end="1500" departLane="random" type="typedist1" vehsPerHour="4008" route="route0"/>
+	<flow id="5_2" begin="1200" end="1500" departLane="random" type="typedist1" vehsPerHour="1068" route="route1"/>
+	<flow id="5_3" begin="1200" end="1500" departLane="random" type="typedist1" vehsPerHour="0.0001" route="route2"/>
+	
+	
+	<flow id="6_1" begin="1500" end="1800" departLane="random" type="typedist1" vehsPerHour="3900" route="route0"/>
+	<flow id="6_2" begin="1500" end="1800" departLane="random" type="typedist1" vehsPerHour="444" route="route1"/>
+	<flow id="6_3" begin="1500" end="1800" departLane="random" type="typedist1" vehsPerHour="240" route="route2"/>
+	
+	
+	<flow id="7_1" begin="1800" end="2100" departLane="random" type="typedist1" vehsPerHour="3948" route="route0"/>
+	<flow id="7_2" begin="1800" end="2100" departLane="random" type="typedist1" vehsPerHour="252" route="route1"/>
+	<flow id="7_3" begin="1800" end="2100" departLane="random" type="typedist1" vehsPerHour="468" route="route2"/>
+	
+	
+	<flow id="8_1" begin="2100" end="2400" departLane="random" type="typedist1" vehsPerHour="4368"  route="route0"/>
+	<flow id="8_2" begin="2100" end="2400" departLane="random" type="typedist1" vehsPerHour="648" route="route1"/>
+	<flow id="8_3" begin="2100" end="2400" departLane="random" type="typedist1" vehsPerHour="0.0001" route="route2"/>
+	
+	
+	<flow id="9_1" begin="2400" end="2700" departLane="random" type="typedist1" vehsPerHour="3948" route="route0"/>
+	<flow id="9_2" begin="2400" end="2700" departLane="random" type="typedist1" vehsPerHour="552" route="route1"/>
+	<flow id="9_3" begin="2400" end="2700" departLane="random" type="typedist1" vehsPerHour="180" route="route2"/>
+	
+	
+	<flow id="10_1" begin="2700" end="3000" departLane="random" type="typedist1" vehsPerHour="3588"  route="route0"/>
+	<flow id="10_2" begin="2700" end="3000" departLane="random" type="typedist1" vehsPerHour="552" route="route1"/>
+	<flow id="10_3" begin="2700" end="3000" departLane="random" type="typedist1" vehsPerHour="288" route="route2"/>
+	
+	
+	<flow id="11_1" begin="3000" end="3300" departLane="random" type="typedist1" vehsPerHour="4260" route="route0"/>
+	<flow id="11_2" begin="3000" end="3300" departLane="random" type="typedist1" vehsPerHour="0.0001" route="route1"/>
+	<flow id="11_3" begin="3000" end="3300" departLane="random" type="typedist1" vehsPerHour="696" route="route2"/>
+	
+	
+	<flow id="12_1" begin="3300" end="3600" departLane="random" type="typedist1" vehsPerHour="4512" route="route0"/>
+	<flow id="12_2" begin="3300" end="3600" departLane="random" type="typedist1" vehsPerHour="0.0001" route="route1"/>
+	<flow id="12_3" begin="3300" end="3600" departLane="random" type="typedist1" vehsPerHour="0.0001" route="route2"/>
+	
+	
+	<flow id="13_1" begin="3600" end="3900" departLane="random" type="typedist1" vehsPerHour="4188" route="route0"/>
+	<flow id="13_2" begin="3600" end="3900" departLane="random" type="typedist1" vehsPerHour="0.0001" route="route1"/>
+	<flow id="13_3" begin="3600" end="3900" departLane="random" type="typedist1" vehsPerHour="264" route="route2"/>
+	
+	<flow id="14_1" begin="3900" end="4200" departLane="random" type="typedist1" vehsPerHour="4440"  route="route0"/>
+	<flow id="14_2" begin="3900" end="4200" departLane="random" type="typedist1" vehsPerHour="0.0001" route="route1"/>
+	<flow id="14_3" begin="3900" end="4200" departLane="random" type="typedist1" vehsPerHour="588" route="route2"/>
+	
+	
+	<flow id="15_1" begin="4200" end="4500" departLane="random" type="typedist1" vehsPerHour="4368" route="route0"/>
+	<flow id="15_2" begin="4200" end="4500" departLane="random" type="typedist1" vehsPerHour="588" route="route1"/>
+	<flow id="15_3" begin="4200" end="4500" departLane="random" type="typedist1" vehsPerHour="336" route="route2"/>
+	
+	
+	<flow id="16_1" begin="4500" end="4800" departLane="random" type="typedist1" vehsPerHour="4764" route="route0"/>
+	<flow id="16_2" begin="4500" end="4800" departLane="random" type="typedist1" vehsPerHour="0.0001" route="route1"/>
+	<flow id="16_3" begin="4500" end="4800" departLane="random" type="typedist1" vehsPerHour="396" route="route2"/>
+		
+	
+	<flow id="17_1" begin="4800" end="5100" departLane="random" type="typedist1" vehsPerHour="4356" route="route0"/>
+	<flow id="17_2" begin="4800" end="5100" departLane="random" type="typedist1" vehsPerHour="0.0001" route="route1"/>
+	<flow id="17_3" begin="4800" end="5100" departLane="random" type="typedist1" vehsPerHour="144" route="route2"/>
+	
+	
+	<flow id="18_1" begin="5100" end="5400" departLane="random" type="typedist1" vehsPerHour="3168" route="route0"/>
+	<flow id="18_2" begin="5100" end="5400" departLane="random" type="typedist1" vehsPerHour="1404" route="route1"/>
+	<flow id="18_3" begin="5100" end="5400" departLane="random" type="typedist1" vehsPerHour="180" route="route2"/>
+	
+	
+	<flow id="19_1" begin="5400" end="5700" departLane="random" type="typedist1" vehsPerHour="4212" route="route0"/>
+	<flow id="19_2" begin="5400" end="5700" departLane="random" type="typedist1" vehsPerHour="0.0001" route="route1"/>
+	<flow id="19_3" begin="5400" end="5700" departLane="random" type="typedist1" vehsPerHour="456" route="route2"/>
+	
+	
+	<flow id="20_1" begin="5700" end="6000" departLane="random" type="typedist1" vehsPerHour="4488" route="route0"/>
+	<flow id="20_2" begin="5700" end="6000" departLane="random" type="typedist1" vehsPerHour="0.0001" route="route1"/>
+	<flow id="20_3" begin="5700" end="6000" departLane="random" type="typedist1" vehsPerHour="252" route="route2"/>
+	
+	
+	<flow id="21_1" begin="6000" end="6300" departLane="random" type="typedist1" vehsPerHour="3564" route="route0"/>
+	<flow id="21_2" begin="6000" end="6300" departLane="random" type="typedist1" vehsPerHour="168" route="route1"/>
+	<flow id="21_3" begin="6000" end="6300" departLane="random" type="typedist1" vehsPerHour="252" route="route2"/>
+	
+	
+	<flow id="22_1" begin="6300" end="6600" departLane="random" type="typedist1" vehsPerHour="3624" route="route0"/>
+	<flow id="22_2" begin="6300" end="6600" departLane="random" type="typedist1" vehsPerHour="0.0001" route="route1"/>
+	<flow id="22_3" begin="6300" end="6600" departLane="random" type="typedist1" vehsPerHour="444" route="route2"/>
+	
+	
+	<flow id="23_1" begin="6600" end="6900" departLane="random" type="typedist1" vehsPerHour="3720" route="route0"/>
+	<flow id="23_2" begin="6600" end="6900" departLane="random" type="typedist1" vehsPerHour="0.0001" route="route1"/>
+	<flow id="23_3" begin="6600" end="6900" departLane="random" type="typedist1" vehsPerHour="0.0001" route="route2"/>
+	
+	
+	<flow id="24_1" begin="6900" end="7200" departLane="random" type="typedist1" vehsPerHour="3828" route="route0"/>
+	<flow id="24_2" begin="6900" end="7200" departLane="random" type="typedist1" vehsPerHour="456" route="route1"/>
+	<flow id="24_3" begin="6900" end="7200" departLane="random" type="typedist1" vehsPerHour="132" route="route2"/>
+	
+	</flows>
+	
+		
+	
+	
+	
+	
+</routes>

@@ -1,0 +1,16 @@
+ <additional>
+ 
+    <edgeData begin="1800" end="2100" id="MEAN_TRAVEL_TIME" file="traveltime.xml"/>	
+	<edgeData begin="2100" end="2400" id="MEAN_TRAVEL_TIME" file="traveltime.xml"/>	
+	<edgeData begin="2400" end="2700" id="MEAN_TRAVEL_TIME" file="traveltime.xml"/>	
+	<edgeData begin="2700" end="3000" id="MEAN_TRAVEL_TIME" file="traveltime.xml"/>	
+	<edgeData begin="3000" end="3300" id="MEAN_TRAVEL_TIME" file="traveltime.xml"/>	
+	<edgeData begin="3300" end="3600" id="MEAN_TRAVEL_TIME" file="traveltime.xml"/>	
+	<edgeData begin="3600" end="3900" id="MEAN_TRAVEL_TIME" file="traveltime.xml"/>	
+	<edgeData begin="3900" end="4200" id="MEAN_TRAVEL_TIME" file="traveltime.xml"/>	
+	<edgeData begin="4200" end="4500" id="MEAN_TRAVEL_TIME" file="traveltime.xml"/>	
+	<edgeData begin="4500" end="4800" id="MEAN_TRAVEL_TIME" file="traveltime.xml"/>	
+	<edgeData begin="4800" end="5100" id="MEAN_TRAVEL_TIME" file="traveltime.xml"/>	
+	<edgeData begin="5100" end="5400" id="MEAN_TRAVEL_TIME" file="traveltime.xml"/>
+	
+ </additional>

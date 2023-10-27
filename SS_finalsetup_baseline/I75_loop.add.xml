@@ -1,0 +1,39 @@
+<additional>
+   <inductionLoop id="loop1_1" lane="1to2_0" pos="100" freq="300" file="loop.xml" friendlyPos="true"/>
+   <inductionLoop id="loop1_2" lane="1to2_1" pos="100" freq="300" file="loop.xml" friendlyPos="true"/>
+   <inductionLoop id="loop1_3" lane="1to2_2" pos="100" freq="300" file="loop.xml" friendlyPos="true"/>
+   
+   <inductionLoop id="loop2_1" lane="2to3_0" pos="9000" freq="300" file="loop.xml" friendlyPos="true"/>
+   <inductionLoop id="loop2_2" lane="2to3_1" pos="9000" freq="300" file="loop.xml" friendlyPos="true"/>
+   <inductionLoop id="loop2_3" lane="2to3_2" pos="9000" freq="300" file="loop.xml" friendlyPos="true"/>
+   <inductionLoop id="loop2_4" lane="2to3_3" pos="9000" freq="300" file="loop.xml" friendlyPos="true"/>
+   
+   <inductionLoop id="loop3_1" lane="3to3_1_0" pos="0" freq="300" file="loop.xml" friendlyPos="true"/>
+   
+   <inductionLoop id="loop4_1" lane="3to4_0" pos="500" freq="300" file="loop.xml" friendlyPos="true"/>
+   <inductionLoop id="loop4_2" lane="3to4_1" pos="500" freq="300" file="loop.xml" friendlyPos="true"/>
+   <inductionLoop id="loop4_3" lane="3to4_2" pos="500" freq="300" file="loop.xml" friendlyPos="true"/>
+   
+   
+   <inductionLoop id="loop5_1" lane="5to6_0" pos="100" freq="300" file="loop.xml" friendlyPos="true"/>
+   <inductionLoop id="loop5_2" lane="5to6_1" pos="100" freq="300" file="loop.xml" friendlyPos="true"/>
+   <inductionLoop id="loop5_3" lane="5to6_2" pos="100" freq="300" file="loop.xml" friendlyPos="true"/>
+   <inductionLoop id="loop5_4" lane="5to6_3" pos="100" freq="300" file="loop.xml" friendlyPos="true"/>
+	 
+   <inductionLoop id="loop6_1" lane="9to9_1_0" pos="300" freq="300" file="loop.xml" friendlyPos="true"/>
+   
+   <inductionLoop id="loop7_1" lane="9to10_0" pos="300" freq="300" file="loop.xml" friendlyPos="true"/>
+   <inductionLoop id="loop7_2" lane="9to10_1" pos="300" freq="300" file="loop.xml" friendlyPos="true"/>
+   <inductionLoop id="loop7_3" lane="9to10_2" pos="300" freq="300" file="loop.xml" friendlyPos="true"/>
+   
+   <inductionLoop id="loop8_1" lane="11to12_0" pos="500" freq="300" file="loop.xml" friendlyPos="true"/>
+   <inductionLoop id="loop8_2" lane="11to12_1" pos="500" freq="300" file="loop.xml" friendlyPos="true"/>
+   <inductionLoop id="loop8_3" lane="11to12_2" pos="500" freq="300" file="loop.xml" friendlyPos="true"/>
+   <inductionLoop id="loop8_4" lane="11to12_3" pos="500" freq="300" file="loop.xml" friendlyPos="true"/>
+	
+	<inductionLoop id="loop9_1" lane="4to4_1_0" pos="30" freq="300" file="loop.xml" friendlyPos="true"/>
+   
+   <inductionLoop id="loop92_1" lane="10_1to10_0" pos="30" freq="300" file="loop.xml" friendlyPos="true"/>
+ 
+   
+</additional>

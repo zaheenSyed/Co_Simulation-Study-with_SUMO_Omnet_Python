@@ -1,0 +1,203 @@
+<additional>
+   <rerouter id="rerouter_1" pos="1000" edges="1to2">
+		<interval begin="0" end="300">
+			<destProbReroute id="3to3_1" probability="0.15"/>
+			<destProbReroute id="6to7" probability="0.85"/>
+		</interval>
+		<interval begin="300" end="600">
+			<destProbReroute id="3to3_1" probability="0.053"/>
+			<destProbReroute id="6to7" probability="0.947"/>
+		</interval>
+		<interval begin="600" end="900">
+			<destProbReroute id="3to3_1" probability="0.022"/>
+			<destProbReroute id="6to7" probability="0.978"/>
+		</interval>
+		<interval begin="900" end="1200">
+			<destProbReroute id="3to3_1" probability="0.06"/>
+			<destProbReroute id="6to7" probability="0.94"/>
+		</interval>
+		<interval begin="1200" end="1500">
+			<destProbReroute id="3to3_1" probability="0.12"/>
+			<destProbReroute id="6to7" probability="0.88"/>
+		</interval>
+		<interval begin="1500" end="1800">
+			<destProbReroute id="3to3_1" probability="0.09"/>
+			<destProbReroute id="6to7" probability="0.91"/>
+		</interval>
+		<interval begin="1800" end="2100">
+			<destProbReroute id="3to3_1" probability="0.02"/>
+			<destProbReroute id="6to7" probability="0.98"/>
+		</interval>
+		<interval begin="2100" end="2400">
+			<destProbReroute id="3to3_1" probability="0"/>
+			<destProbReroute id="6to7" probability="1"/>
+		</interval>
+		<interval begin="2400" end="2700">
+			<destProbReroute id="3to3_1" probability="0.16"/>
+			<destProbReroute id="6to7" probability="0.84"/>
+		</interval>
+		<interval begin="2700" end="3000">
+			<destProbReroute id="3to3_1" probability="0.16"/>
+			<destProbReroute id="6to7" probability="0.84"/>
+		</interval>
+		<interval begin="3000" end="3300">
+			<destProbReroute id="3to3_1" probability="0"/>
+			<destProbReroute id="6to7" probability="1"/>
+		</interval>
+		<interval begin="3300" end="3600">
+			<destProbReroute id="3to3_1" probability="0.08"/>
+			<destProbReroute id="6to7" probability="0.992"/>
+		</interval>
+		<interval begin="3600" end="3900">
+			<destProbReroute id="3to3_1" probability="0.009"/>
+			<destProbReroute id="6to7" probability="0.991"/>
+		</interval>
+		<interval begin="3900" end="4200">
+			<destProbReroute id="3to3_1" probability="0"/>
+			<destProbReroute id="6to7" probability="1"/>
+		</interval>
+		<interval begin="4200" end="4500">
+			<destProbReroute id="3to3_1" probability="0.08"/>
+			<destProbReroute id="6to7" probability="0.92"/>
+		</interval>
+		<interval begin="4500" end="4800">
+			<destProbReroute id="3to3_1" probability="0.009"/>
+			<destProbReroute id="6to7" probability="0.991"/>
+		</interval>
+		<interval begin="4800" end="5100">
+			<destProbReroute id="3to3_1" probability="0"/>
+			<destProbReroute id="6to7" probability="1"/>
+		</interval>
+		<interval begin="5100" end="5400">
+			<destProbReroute id="3to3_1" probability="0"/>
+			<destProbReroute id="6to7" probability="1"/>
+		</interval>
+		<interval begin="5400" end="5700">
+			<destProbReroute id="3to3_1" probability="0"/>
+			<destProbReroute id="6to7" probability="1"/>
+		</interval>
+		<interval begin="5700" end="6000">
+			<destProbReroute id="3to3_1" probability="0"/>
+			<destProbReroute id="6to7" probability="1"/>
+		</interval>
+		<interval begin="6000" end="6300">
+			<destProbReroute id="3to3_1" probability="0"/>
+			<destProbReroute id="6to7" probability="1"/>
+		</interval>
+		<interval begin="6300" end="6600">
+			<destProbReroute id="3to3_1" probability="0"/>
+			<destProbReroute id="6to7" probability="1"/>
+		</interval>
+		<interval begin="6600" end="6900">
+			<destProbReroute id="3to3_1" probability="0"/>
+			<destProbReroute id="6to7" probability="1"/>
+		</interval>
+		<interval begin="6900" end="7200">
+			<destProbReroute id="3to3_1" probability="0"/>
+			<destProbReroute id="6to7" probability="1"/>
+		</interval>
+		
+	</rerouter>
+	<rerouter id="rerouter_2" edges="6to7">
+		<interval begin="0" end="300">
+			<destProbReroute id="9to9_1" probability="0.04"/>
+			<destProbReroute id="12to13" probability="0.96"/>
+		</interval>
+		<interval begin="300" end="600">
+			<destProbReroute id="9to9_1" probability="0.03"/>
+			<destProbReroute id="12to13" probability="0.97"/>
+		</interval>
+		<interval begin="600" end="900">
+			<destProbReroute id="9to9_1" probability="0.03"/>
+			<destProbReroute id="12to13" probability="0.97"/>
+		</interval>
+		<interval begin="900" end="1200">
+			<destProbReroute id="9to9_1" probability="0.06"/>
+			<destProbReroute id="12to13" probability="0.94"/>
+		</interval>
+		<interval begin="1200" end="1500">
+			<destProbReroute id="9to9_1" probability="0.05"/>
+			<destProbReroute id="12to13" probability="0.95"/>
+		</interval>
+		<interval begin="1500" end="1800">
+			<destProbReroute id="9to9_1" probability="0.07"/>
+			<destProbReroute id="12to13" probability="0.93"/>
+		</interval>
+		<interval begin="1800" end="2100">
+			<destProbReroute id="9to9_1" probability="0.09"/>
+			<destProbReroute id="12to13" probability="0.91"/>
+		</interval>
+		<interval begin="2100" end="2400">
+			<destProbReroute id="9to9_1" probability="0.086"/>
+			<destProbReroute id="12to13" probability="0.914"/>
+		</interval>
+		<interval begin="2400" end="2700">
+			<destProbReroute id="9to9_1" probability="0.074"/>
+			<destProbReroute id="12to13" probability="0.926"/>
+		</interval>
+		<interval begin="2700" end="3000">
+			<destProbReroute id="9to9_1" probability="0.1"/>
+			<destProbReroute id="12to13" probability="0.9"/>
+		</interval>
+		<interval begin="3000" end="3300">
+			<destProbReroute id="9to9_1" probability="0.1"/>
+			<destProbReroute id="12to13" probability="0.9"/>
+		</interval>
+		<interval begin="3300" end="3600">
+			<destProbReroute id="9to9_1" probability="0.05"/>
+			<destProbReroute id="12to13" probability="0.95"/>
+		</interval>
+		<interval begin="3600" end="3900">
+			<destProbReroute id="9to9_1" probability="0.09"/>
+			<destProbReroute id="12to13" probability="0.91"/>
+		</interval>
+		<interval begin="3900" end="4200">
+			<destProbReroute id="9to9_1" probability="0.083"/>
+			<destProbReroute id="12to13" probability="0.917"/>
+		</interval>
+		<interval begin="4200" end="4500">
+			<destProbReroute id="9to9_1" probability="0.09"/>
+			<destProbReroute id="12to13" probability="0.91"/>
+		</interval>
+		<interval begin="4500" end="4800">
+			<destProbReroute id="9to9_1" probability="0.089"/>
+			<destProbReroute id="12to13" probability="0.911"/>
+		</interval>
+		<interval begin="4800" end="5100">
+			<destProbReroute id="9to9_1" probability="0.086"/>
+			<destProbReroute id="12to13" probability="0.914"/>
+		</interval>
+		<interval begin="5100" end="5400">
+			<destProbReroute id="9to9_1" probability="0.056"/>
+			<destProbReroute id="12to13" probability="0.944"/>
+		</interval>
+		<interval begin="5400" end="5700">
+			<destProbReroute id="9to9_1" probability="0.064"/>
+			<destProbReroute id="12to13" probability="0.936"/>
+		</interval>
+		<interval begin="5700" end="6000">
+			<destProbReroute id="9to9_1" probability="0.055"/>
+			<destProbReroute id="12to13" probability="0.945"/>
+		</interval>
+		<interval begin="6000" end="6300">
+			<destProbReroute id="9to9_1" probability="0.055"/>
+			<destProbReroute id="12to13" probability="0.945"/>
+		</interval>
+		<interval begin="6300" end="6600">
+			<destProbReroute id="9to9_1" probability="0.063"/>
+			<destProbReroute id="12to13" probability="0.937"/>
+		</interval>
+		<interval begin="6600" end="6900">
+			<destProbReroute id="9to9_1" probability="0.068"/>
+			<destProbReroute id="12to13" probability="0.932"/>
+		</interval>
+		<interval begin="6900" end="7200">
+			<destProbReroute id="9to9_1" probability="0.04"/>
+			<destProbReroute id="12to13" probability="0.96"/>
+		</interval>
+		
+	
+	</rerouter>
+</additional>
+
+
