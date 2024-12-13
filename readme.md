@@ -2,7 +2,8 @@
 
 ## Overview
 Hurricane evacuation poses significant challenges for coastal residents, and this project aims to enhance traffic management during such events. The study utilizes a co-simulation approach, combining SUMO (a microscopic traffic simulation model) with vehicular ad-hoc network (VANET) simulations to assess the impact of Connected and Autonomous Vehicles (CAVs) and Autonomous Vehicles (AVs) on evacuation traffic.
-
+### Note: If you use this study please cite my arxive paper: 
+A Co-Simulation Study to Assess the Impacts of Connected and Autonomous Vehicles on Traffic Flow Stability during Hurricane Evacuation. [Link](https://arxiv.org/abs/2311.06267)
 ## Simulation Setup
 - **Simulation Model:** SUMO
 - **Focus:** Evaluate CAVs and AVs using car-following models and VANET simulations.
